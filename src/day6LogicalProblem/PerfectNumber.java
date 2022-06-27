@@ -3,7 +3,15 @@ package day6LogicalProblem;
 import java.util.Scanner;
 
 public class PerfectNumber {
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String args[]) {
+		/**
+		 * initialize sum 0
+		 * taking a number from user
+		 */
 		long n, sum = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number: ");
